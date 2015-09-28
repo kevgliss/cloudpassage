@@ -1,6 +1,9 @@
 #simple cloudpassage connector
 import sys
 import requests
+
+requests.packages.urllib3.disable_warnings()
+
 from json import dumps
 from urllib import quote
 
